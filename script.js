@@ -5,6 +5,7 @@ var input = document.querySelectorAll('.textinput');
 input[0].classList.add('textinput');
 input[1].classList.add('textinput');
 input[2].classList.add('textinput');
+input[3].classList.add('textinput');
 
 logindiv.classList.add('black_text');
 
@@ -14,5 +15,6 @@ switcher.addEventListener('click', ()=>{
     input[0].classList.toggle('inputLight');
     input[1].classList.toggle('inputLight');
     input[2].classList.toggle('inputLight');
-})
+    input[3].classList.toggle('inputLight');
+});
 
